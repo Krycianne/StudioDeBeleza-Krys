@@ -2,7 +2,7 @@
   background-color: var(--light-gray);
   color: var(--gray);
   font-size: 18px;
-  margin: 0rem 7rem 1rem 7rem;
+  margin: 0rem 5rem 1rem 5rem;
   
   
 }
@@ -33,7 +33,7 @@
 }
 
 .footer__about-text {
-  width: 400px;
+  width: 200px;
   text-align: justify;
 }
 .footer i {
