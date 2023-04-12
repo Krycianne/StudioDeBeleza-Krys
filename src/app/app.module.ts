@@ -14,6 +14,7 @@ import { UnhaEmGelComponent } from './unha-em-gel/unha-em-gel.component';
 import { PenteadoComponent } from './penteado/penteado.component';
 import { MaquiagemComponent } from './maquiagem/maquiagem.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { MaquiagemComponent } from './maquiagem/maquiagem.component';
     UnhaEmGelComponent,
     PenteadoComponent,
     MaquiagemComponent,
+   
    
   ],
   imports: [

@@ -1,4 +1,5 @@
 
+
 <header class="main-header">
   <div div class="container-menu">
   <nav class="main-header__menu ul">
@@ -29,7 +30,8 @@ copia isso e mais os estilo css e cole no novo componente
     <input
       type="text"
       placeholder="digite seu nome"
-      formControlName="nome"
+
+      formControlName="nome" [(ngModel)]="envio.nome"
       [class.valid]="formContato.controls['nome'].valid"
       [class.invalid]="
         formContato.controls['nome'].invalid &&
@@ -50,7 +52,7 @@ copia isso e mais os estilo css e cole no novo componente
     <input
     type="assunto"
     placeholder="digite o assunto"
-    formControlName="assunto"
+    formControlName="assunto" [(ngModel)]="envio.assunto"
       [class.valid]="formContato.controls['assunto'].valid"
       [class.invalid]="
         formContato.controls['assunto'].invalid &&
@@ -72,7 +74,7 @@ copia isso e mais os estilo css e cole no novo componente
     type="telefone"
     placeholder="(00) 0 0000-0000"
 
-    formControlName="telefone"
+    formControlName="telefone" [(ngModel)]="envio.telefone"
       [class.valid]="formContato.controls['telefone'].valid"
       [class.invalid]="
         formContato.controls['telefone'].invalid &&
@@ -93,7 +95,7 @@ copia isso e mais os estilo css e cole no novo componente
     <input
     type="email"
     placeholder="digite seu email"
-    formControlName="email"
+    formControlName="email" [(ngModel)]="envio.email"
       [class.valid]="formContato.controls['email'].valid"
       [class.invalid]="
         formContato.controls['email'].invalid &&
@@ -115,7 +117,7 @@ copia isso e mais os estilo css e cole no novo componente
     maxlength="300"
     placeholder="digite sua mensagem..."
     rows="4"
-    formControlName="mensagem"
+    formControlName="mensagem" [(ngModel)]="envio.mensagem"
       [class.valid]="formContato.controls['mensagem'].valid"
       [class.invalid]="
         formContato.controls['mensagem'].invalid &&
@@ -147,4 +149,3 @@ copia isso e mais os estilo css e cole no novo componente
     <p>Rua Tolendal Bittencourt, qd 16, lt 2a, Major Sinfronio, Palmeiras de Goiás-Go</p>
   </address>
 </section>
-

@@ -21,7 +21,8 @@ const routes: Routes = [
   declarations: [],
   imports: [                          //tem que fazer o importe do RouterModule lá encima
      RouterModule.forRoot(routes)     //adiciona aqui o RouterModule para recebes as rotas das variaveis//
-  ],
+  
+    ],
   exports: [
     RouterModule         // do mesmo jeito que fez o import acima, deve exportar o RouterModule//
   ]
